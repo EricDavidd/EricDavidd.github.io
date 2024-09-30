@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Projects</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="./home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./hobbies.html">Hobbies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Projects</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <a href="#" class="navbar-brand float-end">
+            <img src="../resources/img/svticon.jpg" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
+          </a>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="d-flex justify-content-center">
+      <div id="projects" class="carousel slide" data-bs-ride="carousel" style="width: 75%; height: 75vh;">
+        <!-- Indicators -->
+        <div class="carousel-indicators" id="carousel-bottom-indicators">
+          <button type="button" data-bs-target="#projects" data-bs-slide-to="0" class="active" aria-current="true"></button>
+          <button type="button" data-bs-target="#projects" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#projects" data-bs-slide-to="2"></button>
+        </div>
+
+        <!-- Carousel items -->
+        <div class="carousel-inner">
+          <div class="carousel-item active" id="carousel-item-1" style="height: 75vh; background-image: url('../resources/img/spacetex.png'); background-size: cover; background-position: center;">
+            <div class="carousel-caption d-none d-md-block" style="background-color: rgba(88, 96, 104, 0.592); padding: 20px; border-radius: 10px;">
+              <h5 style="font-size: 2rem;">Project 1: SpaceTex</h5>
+              <p style="font-size: 1.2rem;">This project involved making a website for a fictional space tourism company. This project was done for the submission for the 2023 TSA Competition at the Colorado Technology Student Association State Compeition. Developed using HTML and Bootstrap.</p>
+            </div>
+          </div>
+          <div class="carousel-item" id="carousel-item-2" style="height: 75vh; background-image: url('../resources/img/gameproject.png'); background-size: cover; background-position: center;">
+            <div class="carousel-caption d-none d-md-block" style="background-color: rgba(88, 96, 104, 0.592); padding: 20px; border-radius: 10px;">
+              <h5 style="font-size: 2rem;">Project 2: Candy Land Game</h5>
+              <p style="font-size: 1.2rem;">This project was developed from the CSCI 1300 class. We were tasked to develop a game based on Candyland that was meant to be played entirely through the terminal. Developed using C++.</p>
+            </div>
+          </div>
+          <div class="carousel-item" id="carousel-item-3" style="height: 75vh; background-image: url('../resources/img/exploratoria.png'); background-size: cover; background-position: center;">
+            <div class="carousel-caption d-none d-md-block" style="background-color: rgba(88, 96, 104, 0.592); padding: 20px; border-radius: 10px;">
+              <h5 style="font-size: 2rem;">Project 3: Exploratoria Game</h5>
+              <p style="font-size: 1.2rem;">Exploratoria is a 2D top-down game that takes inspiration from museums to provide an enjoyable learning experience. It won first place at the Colorado Technology Student Association competition. It was coded using C# with the Unity platform.</p>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" id="carousel-prev" type="button" data-bs-target="#projects" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" id="carousel-next" type="button" data-bs-target="#projects" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top fixed-bottom" id="footer">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Eric David</span>
+      </div>
+
+      <div class="col-md-4 d-flex justify-content-center">
+        <a class="text-body-secondary" href="https://www.linkedin.com/in/eric-david-b664118b/">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+      </div>
+
+      <div class="col-md-4"></div>
+    </footer>
+  </body>
+</html>
