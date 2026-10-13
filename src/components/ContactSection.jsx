@@ -46,11 +46,11 @@ import {
                   <div>
                     <h4 className="font-medium">LinkedIn</h4>
                     <a
-                      href="https://www.linkedin.com/in/eric-david-b664118b/"
+                      href="https://www.linkedin.com/in/eric-davidd/"
                       className="text-muted-foreground hover:text-primary transition-colors"
                       target="_blank"
                     >
-                      https://www.linkedin.com/in/eric-david-b664118b/
+                      https://www.linkedin.com/in/eric-davidd/
                     </a>
                   </div>
                 </div>
